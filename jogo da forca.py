@@ -10,7 +10,7 @@ print(f' Olá, seja bem vindo ao jogo da forca  (￣▽￣)ノ  '.center(largura
 print(f' Regras '.center(largura, enchemento))
 print(f'O computador ira escolher uma palavra aliatoria sobre o tema, o qual é comida.'.center(largura))
 print(f'O jogador devera tentar advinhar qual foi a "comida" escolhida.'.center(largura))
-print(f'Voçe tem 10 tentativas para acertar, caso nao consiga voçe perde (︶︹︺).'.center(largura))
+print(f'Voçe tem 10 tentativas para acertar, caso nao consiga voce perde (︶︹︺).'.center(largura))
 print(f' Boa sorte (＾_＾）'.center(largura, enchemento))
 
 for tentativa in range(tentativas):
@@ -24,7 +24,7 @@ for tentativa in range(tentativas):
             if letra == palavra[item]:
                 riscokkkk[item] = letra
     else:
-        print(f" A letra que você colocou não tem na palavra")
+        print(f" A letra que voce colocou não tem na palavra")
 
     print(" ".join(riscokkkk))
 
@@ -32,8 +32,8 @@ for tentativa in range(tentativas):
         break
 
 if '_' in riscokkkk:
-    print(" Voçe perdeu ;-; na proxima voçe consegue!")
+    print(" Voce perdeu ;-; na proxima voce consegue!")
 else:
-    print(" VOÇE ACERTOU ヽ(^。^)丿 PARABÉNSSS!!")
+    print(" VOCE ACERTOU ヽ(^。^)丿 PARABÉNSSS!!")
 
 print(f"A palavra era {palavra}")
