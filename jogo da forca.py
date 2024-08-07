@@ -6,12 +6,12 @@ largura = 60
 enchemento = '━'
 riscokkkk = ['_'] * len(palavra)
 
-print(f' Olá, seja bem vindo ao jogo da forca  (￣▽￣)ノ  '.center(largura, enchemento))
+print(f' Olá, seja bem vindo ao jogo da forca  '.center(largura, enchemento))
 print(f' Regras '.center(largura, enchemento))
 print(f'O computador ira escolher uma palavra aliatoria sobre o tema, o qual é comida.'.center(largura))
 print(f'O jogador devera tentar advinhar qual foi a "comida" escolhida.'.center(largura))
-print(f'Voçe tem 10 tentativas para acertar, caso nao consiga voce perde (︶︹︺).'.center(largura))
-print(f' Boa sorte (＾_＾）'.center(largura, enchemento))
+print(f'Voçe tem 10 tentativas para acertar, caso nao consiga voce perde.'.center(largura))
+print(f' Boa sorte '.center(largura, enchemento))
 
 for tentativa in range(tentativas):
 
@@ -32,8 +32,8 @@ for tentativa in range(tentativas):
         break
 
 if '_' in riscokkkk:
-    print(" Voce perdeu ;-; na proxima voce consegue!")
+    print(" Voce perdeu na proxima voce consegue!")
 else:
-    print(" VOCE ACERTOU ヽ(^。^)丿 PARABÉNSSS!!")
+    print(" VOCE ACERTOU PARABÉNSSS!!")
 
 print(f"A palavra era {palavra}")
